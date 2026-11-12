@@ -1,3 +1,340 @@
 {
-  "packages": []
+  "packages": [
+    {
+      "code": "EMS_Enterprise",
+      "name": "EMS Enterprise",
+      "max_users": 9999,
+      "max_installations": 10,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten"
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+        },
+        {
+          "key": "all",
+          "label": "Alle Funktionen",
+          "description": "Schaltet alle Funktionen frei und erfüllt die Kernfunktion"
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge"
+        },
+        {
+          "key": "priority_support",
+          "label": "Priorisierter Support",
+          "description": "Bevorzugte Supportbearbeitung"
+        }
+      ],
+      "price_amount_cents": 1078800,
+      "currency": "EUR",
+      "billing_interval": "year",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    },
+    {
+      "code": "EMS_Pro",
+      "name": "EMS Pro",
+      "max_users": 60,
+      "max_installations": 1,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten"
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+        }
+      ],
+      "price_amount_cents": 418800,
+      "currency": "EUR",
+      "billing_interval": "year",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    },
+    {
+      "code": "EMS_Starter",
+      "name": "EMS Starter",
+      "max_users": 25,
+      "max_installations": 1,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten"
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+        }
+      ],
+      "price_amount_cents": 214800,
+      "currency": "EUR",
+      "billing_interval": "year",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    },
+    {
+      "code": "Hospital_Enterprise",
+      "name": "Hospital Enterprise",
+      "max_users": 9999,
+      "max_installations": 10,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten"
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge"
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende"
+        },
+        {
+          "key": "all",
+          "label": "Alle Funktionen",
+          "description": "Schaltet alle Funktionen frei und erfüllt die Kernfunktion"
+        }
+      ],
+      "price_amount_cents": 2998800,
+      "currency": "EUR",
+      "billing_interval": "year",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    },
+    {
+      "code": "Hospital_Medium",
+      "name": "Hospital Medium",
+      "max_users": 400,
+      "max_installations": 2,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten"
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge"
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende"
+        }
+      ],
+      "price_amount_cents": 1438800,
+      "currency": "EUR",
+      "billing_interval": "year",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    },
+    {
+      "code": "Hospital_Unit",
+      "name": "Hospital Unit",
+      "max_users": 40,
+      "max_installations": 1,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten"
+        }
+      ],
+      "price_amount_cents": 358800,
+      "currency": "EUR",
+      "billing_interval": "year",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    },
+    {
+      "code": "ILS_Enterprise",
+      "name": "ILS Enterprise",
+      "max_users": 9999,
+      "max_installations": 10,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten"
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge"
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende"
+        },
+        {
+          "key": "all",
+          "label": "Alle Funktionen",
+          "description": "Schaltet alle Funktionen frei und erfüllt die Kernfunktion"
+        },
+        {
+          "key": "priority_support",
+          "label": "Priorisierter Support",
+          "description": "Bevorzugte Supportbearbeitung"
+        }
+      ],
+      "price_amount_cents": 2520000,
+      "currency": "EUR",
+      "billing_interval": "year",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    },
+    {
+      "code": "ILS_Standart",
+      "name": "ILS Standart",
+      "max_users": 9999,
+      "max_installations": 1,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten"
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge"
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende"
+        },
+        {
+          "key": "all",
+          "label": "Alle Funktionen",
+          "description": "Schaltet alle Funktionen frei und erfüllt die Kernfunktion"
+        }
+      ],
+      "price_amount_cents": 1500000,
+      "currency": "EUR",
+      "billing_interval": "year",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    },
+    {
+      "code": "PROFESSIONAL",
+      "name": "Professional",
+      "max_users": 100,
+      "max_installations": 1,
+      "features": [
+        {
+          "key": "core_scheduling",
+          "label": "Kern-Dienstplanung",
+          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von ClinicPulse zwingend benötigt)"
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge"
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende"
+        }
+      ],
+      "price_amount_cents": 8000,
+      "currency": "EUR",
+      "billing_interval": "month",
+      "billing_interval_count": 1,
+      "auto_renew": false,
+      "lifetime_price_cents": 0
+    }
+  ]
 }
