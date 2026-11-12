@@ -6,7 +6,7 @@ Statische Website für GitHub Pages. Sie stellt ClinicPulse, die vom Lizenzmanag
 
 1. Dateien auf den Branch `main` des Repositories `the1andoni/clinicpulse_website` übertragen.
 2. Unter **Settings → Pages → Build and deployment** als Quelle **GitHub Actions** wählen. Der Workflow veröffentlicht jeden Push auf `main`. Die Adresse lautet üblicherweise `https://the1andoni.github.io/clinicpulse_website/`.
-3. Das Repository ist derzeit privat. Ob Pages für private Repositories verfügbar ist, hängt vom GitHub-Tarif ab; andernfalls muss das Repository für eine öffentliche Website öffentlich sein. Alle Inhalte und Paketpreise sind auf der Website öffentlich.
+3. Ob Pages für private Repositories verfügbar ist, hängt vom GitHub-Tarif ab. Alle Inhalte und Paketpreise sind auf einer öffentlichen Website öffentlich.
 4. Vor öffentlicher Nutzung die erforderlichen Anbieter- und Datenschutzhinweise ergänzen und rechtlich prüfen lassen.
 
 ## Paket-Synchronisierung
