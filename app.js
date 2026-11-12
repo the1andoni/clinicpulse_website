@@ -25,6 +25,11 @@ function packageArea(plan) {
   return "other";
 }
 
+function monthlyPrice(plan) {
+  const months = plan.billing_interval === "year" ? 12 : 1;
+  return plan.price_amount_cents / (months * plan.billing_interval_count);
+}
+
 function renderPackage(plan) {
   const card = element("article", "package-card");
   card.append(element("span", "card-index", "CLINICPULSE / LIZENZMODELL"));
@@ -78,7 +83,8 @@ async function loadPackages() {
         const section = element("section", "package-group");
         section.append(element("h3", "package-group-title", label));
         const grid = element("div", "package-grid");
-        grid.replaceChildren(...groups.get(id).map(renderPackage));
+        const plans = groups.get(id).sort((a, b) => monthlyPrice(a) - monthlyPrice(b));
+        grid.replaceChildren(...plans.map(renderPackage));
         section.append(grid);
         return section;
       });
