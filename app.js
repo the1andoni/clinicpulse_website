@@ -1,4 +1,10 @@
 const packageContainer = document.querySelector("#packages");
+const packageAreas = [
+  { id: "ils", label: "ILS" },
+  { id: "ems", label: "EMS / Rettungsdienst" },
+  { id: "hospital", label: "Hospital Enterprise" },
+  { id: "other", label: "Weitere Pakete" },
+];
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -11,10 +17,18 @@ function money(amount, currency) {
   return new Intl.NumberFormat("de-DE", { style: "currency", currency }).format(amount / 100);
 }
 
+function packageArea(plan) {
+  const code = typeof plan.code === "string" ? plan.code : "";
+  if (code.startsWith("ILS_")) return "ils";
+  if (code.startsWith("EMS_")) return "ems";
+  if (code.startsWith("Hospital_")) return "hospital";
+  return "other";
+}
+
 function renderPackage(plan) {
   const card = element("article", "package-card");
   card.append(element("span", "card-index", "CLINICPULSE / LIZENZMODELL"));
-  card.append(element("h3", "", plan.name));
+  card.append(element("h4", "", plan.name));
   const period = plan.billing_interval === "year" ? "Jahr" : "Monat";
   const count = plan.billing_interval_count;
   const price = element("div", "package-price");
@@ -52,8 +66,23 @@ async function loadPackages() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     if (!Array.isArray(data.packages)) throw new Error("Ungültiges Paketformat");
-    const cards = data.packages.map(renderPackage);
-    packageContainer.replaceChildren(...(cards.length ? cards : [element("p", "package-status", "Aktuell sind noch keine Pakete veröffentlicht. Kontaktiere uns gerne für weitere Informationen.")]));
+    const groups = new Map();
+    for (const plan of data.packages) {
+      const area = packageArea(plan);
+      if (!groups.has(area)) groups.set(area, []);
+      groups.get(area).push(plan);
+    }
+    const sections = packageAreas
+      .filter(({ id }) => groups.has(id))
+      .map(({ id, label }) => {
+        const section = element("section", "package-group");
+        section.append(element("h3", "package-group-title", label));
+        const grid = element("div", "package-grid");
+        grid.replaceChildren(...groups.get(id).map(renderPackage));
+        section.append(grid);
+        return section;
+      });
+    packageContainer.replaceChildren(...(sections.length ? sections : [element("p", "package-status", "Aktuell sind noch keine Pakete veröffentlicht. Kontaktiere uns gerne für weitere Informationen.")]));
   } catch (error) {
     console.error("Paketkatalog konnte nicht geladen werden:", error);
     packageContainer.replaceChildren(element("p", "package-status", "Die Pakete konnten gerade nicht geladen werden. Bitte versuche es später erneut oder kontaktiere uns."));
