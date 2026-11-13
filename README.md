@@ -1,8 +1,8 @@
 [![Deploy website](https://github.com/the1andoni/clinicpulse_website/actions/workflows/pages.yml/badge.svg)](https://github.com/the1andoni/clinicpulse_website/actions/workflows/pages.yml)
 
-# ClinicPulse Website
+# Medora Website
 
-Statische Website für GitHub Pages. Sie stellt ClinicPulse, die vom Lizenzmanager veröffentlichten Pakete und ein Kontaktformular vor. Das Formular öffnet das lokale E-Mail-Programm; es versendet selbst keine Nachricht und benötigt keinen Formulardienst.
+Statische Website für GitHub Pages. Sie stellt Medora, die vom Lizenzmanager veröffentlichten Pakete und ein Kontaktformular vor. Das Formular öffnet das lokale E-Mail-Programm; es versendet selbst keine Nachricht und benötigt keinen Formulardienst.
 
 ## Veröffentlichung
 

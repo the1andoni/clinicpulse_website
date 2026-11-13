@@ -32,7 +32,7 @@ function monthlyPrice(plan) {
 
 function renderPackage(plan) {
   const card = element("article", "package-card");
-  card.append(element("span", "card-index", "CLINICPULSE / LIZENZMODELL"));
+  card.append(element("span", "card-index", "MEDORA / LIZENZMODELL"));
   card.append(element("h4", "", plan.name));
   const period = plan.billing_interval === "year" ? "Jahr" : "Monat";
   const count = plan.billing_interval_count;
@@ -99,7 +99,7 @@ document.querySelector("#contact-form").addEventListener("submit", (event) => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
   const body = `Name: ${form.get("name")}\nE-Mail: ${form.get("email")}\nOrganisation: ${form.get("organization") || "–"}\n\n${form.get("message")}`;
-  window.location.href = `mailto:info@cyberspaceconsulting.de?subject=${encodeURIComponent("Anfrage zu ClinicPulse")}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:info@cyberspaceconsulting.de?subject=${encodeURIComponent("Anfrage zu Medora")}&body=${encodeURIComponent(body)}`;
 });
 
 loadPackages();
