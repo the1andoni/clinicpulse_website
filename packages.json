@@ -9,32 +9,57 @@
         {
           "key": "core_scheduling",
           "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
-        },
-        {
-          "key": "basic_export",
-          "label": "Basis-Export",
-          "description": "Export von Dienstplandaten"
+          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
         },
         {
-          "key": "all",
-          "label": "Alle Funktionen",
-          "description": "Schaltet alle Funktionen frei und erfüllt die Kernfunktion"
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten."
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende."
         },
         {
           "key": "advanced_solver",
           "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge"
+          "description": "Automatische Besetzungsvorschläge."
+        },
+        {
+          "key": "backup",
+          "label": "Datensicherung",
+          "description": "Sicherung und Wiederherstellung der Installation."
+        },
+        {
+          "key": "all",
+          "label": "Alle Funktionen",
+          "description": "Erfüllt die MEDora-Kernanforderung; zusätzliche Module werden derzeit nicht einzeln geprüft."
         },
         {
           "key": "priority_support",
           "label": "Priorisierter Support",
-          "description": "Bevorzugte Supportbearbeitung"
+          "description": "Bevorzugte Supportbearbeitung als vertragliche Leistung."
+        },
+        {
+          "key": "vip_override",
+          "label": "VIP-Überschreibung",
+          "description": "VIP und unterdrückte Warnungen werden separat an der Kundenlizenz verwaltet."
+        },
+        {
+          "key": "plan_archive",
+          "label": "Dienstplanarchiv",
+          "description": "Archivierung von Dienstplänen."
+        },
+        {
+          "key": "audit_log",
+          "label": "Audit-Protokoll",
+          "description": "Protokollierung administrativer Vorgänge."
         }
       ],
       "price_amount_cents": 1078800,
@@ -53,17 +78,32 @@
         {
           "key": "core_scheduling",
           "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
-        },
-        {
-          "key": "basic_export",
-          "label": "Basis-Export",
-          "description": "Export von Dienstplandaten"
+          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten."
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende."
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge."
+        },
+        {
+          "key": "backup",
+          "label": "Datensicherung",
+          "description": "Sicherung und Wiederherstellung der Installation."
         }
       ],
       "price_amount_cents": 418800,
@@ -82,17 +122,17 @@
         {
           "key": "core_scheduling",
           "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
-        },
-        {
-          "key": "basic_export",
-          "label": "Basis-Export",
-          "description": "Export von Dienstplandaten"
+          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+        },
+        {
+          "key": "basic_export",
+          "label": "Basis-Export",
+          "description": "Export von Dienstplandaten."
         }
       ],
       "price_amount_cents": 214800,
@@ -111,32 +151,57 @@
         {
           "key": "core_scheduling",
           "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
+          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
         },
         {
           "key": "basic_export",
           "label": "Basis-Export",
-          "description": "Export von Dienstplandaten"
+          "description": "Export von Dienstplandaten."
         },
         {
           "key": "advanced_solver",
           "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge"
+          "description": "Automatische Besetzungsvorschläge."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
         },
         {
           "key": "web_push",
           "label": "Web-Push-Benachrichtigungen",
-          "description": "Push-Hinweise an Mitarbeitende"
+          "description": "Push-Hinweise an Mitarbeitende."
         },
         {
           "key": "all",
           "label": "Alle Funktionen",
-          "description": "Schaltet alle Funktionen frei und erfüllt die Kernfunktion"
+          "description": "Erfüllt die MEDora-Kernanforderung; zusätzliche Module werden derzeit nicht einzeln geprüft."
+        },
+        {
+          "key": "priority_support",
+          "label": "Priorisierter Support",
+          "description": "Bevorzugte Supportbearbeitung als vertragliche Leistung."
+        },
+        {
+          "key": "vip_override",
+          "label": "VIP-Überschreibung",
+          "description": "VIP und unterdrückte Warnungen werden separat an der Kundenlizenz verwaltet."
+        },
+        {
+          "key": "backup",
+          "label": "Datensicherung",
+          "description": "Sicherung und Wiederherstellung der Installation."
+        },
+        {
+          "key": "plan_archive",
+          "label": "Dienstplanarchiv",
+          "description": "Archivierung von Dienstplänen."
+        },
+        {
+          "key": "audit_log",
+          "label": "Audit-Protokoll",
+          "description": "Protokollierung administrativer Vorgänge."
         }
       ],
       "price_amount_cents": 2998800,
@@ -155,27 +220,27 @@
         {
           "key": "core_scheduling",
           "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
+          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
         },
         {
           "key": "basic_export",
           "label": "Basis-Export",
-          "description": "Export von Dienstplandaten"
+          "description": "Export von Dienstplandaten."
         },
         {
           "key": "advanced_solver",
           "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge"
+          "description": "Automatische Besetzungsvorschläge."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
         },
         {
           "key": "web_push",
           "label": "Web-Push-Benachrichtigungen",
-          "description": "Push-Hinweise an Mitarbeitende"
+          "description": "Push-Hinweise an Mitarbeitende."
         }
       ],
       "price_amount_cents": 1438800,
@@ -194,12 +259,12 @@
         {
           "key": "core_scheduling",
           "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
+          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
         },
         {
           "key": "basic_export",
           "label": "Basis-Export",
-          "description": "Export von Dienstplandaten"
+          "description": "Export von Dienstplandaten."
         }
       ],
       "price_amount_cents": 358800,
@@ -218,37 +283,52 @@
         {
           "key": "core_scheduling",
           "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
-        },
-        {
-          "key": "basic_export",
-          "label": "Basis-Export",
-          "description": "Export von Dienstplandaten"
-        },
-        {
-          "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge"
-        },
-        {
-          "key": "kiosk_mode",
-          "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
-        },
-        {
-          "key": "web_push",
-          "label": "Web-Push-Benachrichtigungen",
-          "description": "Push-Hinweise an Mitarbeitende"
+          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
         },
         {
           "key": "all",
           "label": "Alle Funktionen",
-          "description": "Schaltet alle Funktionen frei und erfüllt die Kernfunktion"
+          "description": "Erfüllt die MEDora-Kernanforderung; zusätzliche Module werden derzeit nicht einzeln geprüft."
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge."
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende."
+        },
+        {
+          "key": "vip_override",
+          "label": "VIP-Überschreibung",
+          "description": "VIP und unterdrückte Warnungen werden separat an der Kundenlizenz verwaltet."
+        },
+        {
+          "key": "backup",
+          "label": "Datensicherung",
+          "description": "Sicherung und Wiederherstellung der Installation."
+        },
+        {
+          "key": "plan_archive",
+          "label": "Dienstplanarchiv",
+          "description": "Archivierung von Dienstplänen."
+        },
+        {
+          "key": "audit_log",
+          "label": "Audit-Protokoll",
+          "description": "Protokollierung administrativer Vorgänge."
         },
         {
           "key": "priority_support",
           "label": "Priorisierter Support",
-          "description": "Bevorzugte Supportbearbeitung"
+          "description": "Bevorzugte Supportbearbeitung als vertragliche Leistung."
         }
       ],
       "price_amount_cents": 2520000,
@@ -267,71 +347,52 @@
         {
           "key": "core_scheduling",
           "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
-        },
-        {
-          "key": "basic_export",
-          "label": "Basis-Export",
-          "description": "Export von Dienstplandaten"
-        },
-        {
-          "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge"
-        },
-        {
-          "key": "kiosk_mode",
-          "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
-        },
-        {
-          "key": "web_push",
-          "label": "Web-Push-Benachrichtigungen",
-          "description": "Push-Hinweise an Mitarbeitende"
+          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
         },
         {
           "key": "all",
           "label": "Alle Funktionen",
-          "description": "Schaltet alle Funktionen frei und erfüllt die Kernfunktion"
+          "description": "Erfüllt die MEDora-Kernanforderung; zusätzliche Module werden derzeit nicht einzeln geprüft."
+        },
+        {
+          "key": "advanced_solver",
+          "label": "Optimierer / Smart-Selection",
+          "description": "Automatische Besetzungsvorschläge."
+        },
+        {
+          "key": "kiosk_mode",
+          "label": "Kiosk-Konten",
+          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+        },
+        {
+          "key": "web_push",
+          "label": "Web-Push-Benachrichtigungen",
+          "description": "Push-Hinweise an Mitarbeitende."
+        },
+        {
+          "key": "vip_override",
+          "label": "VIP-Überschreibung",
+          "description": "VIP und unterdrückte Warnungen werden separat an der Kundenlizenz verwaltet."
+        },
+        {
+          "key": "backup",
+          "label": "Datensicherung",
+          "description": "Sicherung und Wiederherstellung der Installation."
+        },
+        {
+          "key": "plan_archive",
+          "label": "Dienstplanarchiv",
+          "description": "Archivierung von Dienstplänen."
+        },
+        {
+          "key": "audit_log",
+          "label": "Audit-Protokoll",
+          "description": "Protokollierung administrativer Vorgänge."
         }
       ],
       "price_amount_cents": 1500000,
       "currency": "EUR",
       "billing_interval": "year",
-      "billing_interval_count": 1,
-      "auto_renew": false,
-      "lifetime_price_cents": 0
-    },
-    {
-      "code": "PROFESSIONAL",
-      "name": "Professional",
-      "max_users": 100,
-      "max_installations": 1,
-      "features": [
-        {
-          "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Dienstplan, Mitarbeitende, Schichten, Abwesenheiten (von Medora zwingend benötigt)"
-        },
-        {
-          "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge"
-        },
-        {
-          "key": "kiosk_mode",
-          "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore"
-        },
-        {
-          "key": "web_push",
-          "label": "Web-Push-Benachrichtigungen",
-          "description": "Push-Hinweise an Mitarbeitende"
-        }
-      ],
-      "price_amount_cents": 8000,
-      "currency": "EUR",
-      "billing_interval": "month",
       "billing_interval_count": 1,
       "auto_renew": false,
       "lifetime_price_cents": 0
