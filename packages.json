@@ -8,13 +8,13 @@
       "features": [
         {
           "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
+          "label": "Basis-Dienstplanung",
+          "description": "Basis-Solver für Dienstplanung und Einrichtung; ist für MEDora erforderlich."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+          "description": "Anlegen schreibgeschützter Anzeige-Konten; vorhandene Kiosk-Konten bleiben nutzbar."
         },
         {
           "key": "basic_export",
@@ -28,18 +28,18 @@
         },
         {
           "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge."
+          "label": "Erweiterte Dienstplanung",
+          "description": "Aktiviert Mitarbeiterpräferenzen und verbindliche Mentorenregeln zusätzlich zur Basis-Dienstplanung."
         },
         {
           "key": "backup",
           "label": "Datensicherung",
-          "description": "Sicherung und Wiederherstellung der Installation."
+          "description": "Verschlüsselte Sicherungen, Backup-Ziele und Zeitpläne; die Wiederherstellung bleibt immer möglich."
         },
         {
           "key": "all",
           "label": "Alle Funktionen",
-          "description": "Erfüllt die MEDora-Kernanforderung; zusätzliche Module werden derzeit nicht einzeln geprüft."
+          "description": "Erfüllt die MEDora-Kernanforderung und schaltet alle Module frei."
         },
         {
           "key": "priority_support",
@@ -49,17 +49,17 @@
         {
           "key": "vip_override",
           "label": "VIP-Überschreibung",
-          "description": "VIP und unterdrückte Warnungen werden separat an der Kundenlizenz verwaltet."
+          "description": "VIP und Warnungsunterdrückung werden separat an der Kundenlizenz verwaltet."
         },
         {
           "key": "plan_archive",
           "label": "Dienstplanarchiv",
-          "description": "Archivierung von Dienstplänen."
+          "description": "Erstellen und automatisches Archivieren von Dienstplänen; vorhandene Archive bleiben lesbar."
         },
         {
           "key": "audit_log",
           "label": "Audit-Protokoll",
-          "description": "Protokollierung administrativer Vorgänge."
+          "description": "Einsicht in das Audit-Protokoll; die Aufzeichnung läuft immer."
         }
       ],
       "price_amount_cents": 1078800,
@@ -77,13 +77,13 @@
       "features": [
         {
           "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
+          "label": "Basis-Dienstplanung",
+          "description": "Basis-Solver für Dienstplanung und Einrichtung; ist für MEDora erforderlich."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+          "description": "Anlegen schreibgeschützter Anzeige-Konten; vorhandene Kiosk-Konten bleiben nutzbar."
         },
         {
           "key": "basic_export",
@@ -97,13 +97,13 @@
         },
         {
           "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge."
+          "label": "Erweiterte Dienstplanung",
+          "description": "Aktiviert Mitarbeiterpräferenzen und verbindliche Mentorenregeln zusätzlich zur Basis-Dienstplanung."
         },
         {
           "key": "backup",
           "label": "Datensicherung",
-          "description": "Sicherung und Wiederherstellung der Installation."
+          "description": "Verschlüsselte Sicherungen, Backup-Ziele und Zeitpläne; die Wiederherstellung bleibt immer möglich."
         }
       ],
       "price_amount_cents": 418800,
@@ -121,13 +121,13 @@
       "features": [
         {
           "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
+          "label": "Basis-Dienstplanung",
+          "description": "Basis-Solver für Dienstplanung und Einrichtung; ist für MEDora erforderlich."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+          "description": "Anlegen schreibgeschützter Anzeige-Konten; vorhandene Kiosk-Konten bleiben nutzbar."
         },
         {
           "key": "basic_export",
@@ -150,8 +150,8 @@
       "features": [
         {
           "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
+          "label": "Basis-Dienstplanung",
+          "description": "Basis-Solver für Dienstplanung und Einrichtung; ist für MEDora erforderlich."
         },
         {
           "key": "basic_export",
@@ -160,13 +160,13 @@
         },
         {
           "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge."
+          "label": "Erweiterte Dienstplanung",
+          "description": "Aktiviert Mitarbeiterpräferenzen und verbindliche Mentorenregeln zusätzlich zur Basis-Dienstplanung."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+          "description": "Anlegen schreibgeschützter Anzeige-Konten; vorhandene Kiosk-Konten bleiben nutzbar."
         },
         {
           "key": "web_push",
@@ -176,7 +176,7 @@
         {
           "key": "all",
           "label": "Alle Funktionen",
-          "description": "Erfüllt die MEDora-Kernanforderung; zusätzliche Module werden derzeit nicht einzeln geprüft."
+          "description": "Erfüllt die MEDora-Kernanforderung und schaltet alle Module frei."
         },
         {
           "key": "priority_support",
@@ -186,22 +186,22 @@
         {
           "key": "vip_override",
           "label": "VIP-Überschreibung",
-          "description": "VIP und unterdrückte Warnungen werden separat an der Kundenlizenz verwaltet."
+          "description": "VIP und Warnungsunterdrückung werden separat an der Kundenlizenz verwaltet."
         },
         {
           "key": "backup",
           "label": "Datensicherung",
-          "description": "Sicherung und Wiederherstellung der Installation."
+          "description": "Verschlüsselte Sicherungen, Backup-Ziele und Zeitpläne; die Wiederherstellung bleibt immer möglich."
         },
         {
           "key": "plan_archive",
           "label": "Dienstplanarchiv",
-          "description": "Archivierung von Dienstplänen."
+          "description": "Erstellen und automatisches Archivieren von Dienstplänen; vorhandene Archive bleiben lesbar."
         },
         {
           "key": "audit_log",
           "label": "Audit-Protokoll",
-          "description": "Protokollierung administrativer Vorgänge."
+          "description": "Einsicht in das Audit-Protokoll; die Aufzeichnung läuft immer."
         }
       ],
       "price_amount_cents": 2998800,
@@ -219,8 +219,8 @@
       "features": [
         {
           "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
+          "label": "Basis-Dienstplanung",
+          "description": "Basis-Solver für Dienstplanung und Einrichtung; ist für MEDora erforderlich."
         },
         {
           "key": "basic_export",
@@ -229,13 +229,13 @@
         },
         {
           "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge."
+          "label": "Erweiterte Dienstplanung",
+          "description": "Aktiviert Mitarbeiterpräferenzen und verbindliche Mentorenregeln zusätzlich zur Basis-Dienstplanung."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+          "description": "Anlegen schreibgeschützter Anzeige-Konten; vorhandene Kiosk-Konten bleiben nutzbar."
         },
         {
           "key": "web_push",
@@ -258,8 +258,8 @@
       "features": [
         {
           "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
+          "label": "Basis-Dienstplanung",
+          "description": "Basis-Solver für Dienstplanung und Einrichtung; ist für MEDora erforderlich."
         },
         {
           "key": "basic_export",
@@ -282,23 +282,23 @@
       "features": [
         {
           "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
+          "label": "Basis-Dienstplanung",
+          "description": "Basis-Solver für Dienstplanung und Einrichtung; ist für MEDora erforderlich."
         },
         {
           "key": "all",
           "label": "Alle Funktionen",
-          "description": "Erfüllt die MEDora-Kernanforderung; zusätzliche Module werden derzeit nicht einzeln geprüft."
+          "description": "Erfüllt die MEDora-Kernanforderung und schaltet alle Module frei."
         },
         {
           "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge."
+          "label": "Erweiterte Dienstplanung",
+          "description": "Aktiviert Mitarbeiterpräferenzen und verbindliche Mentorenregeln zusätzlich zur Basis-Dienstplanung."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+          "description": "Anlegen schreibgeschützter Anzeige-Konten; vorhandene Kiosk-Konten bleiben nutzbar."
         },
         {
           "key": "web_push",
@@ -308,22 +308,22 @@
         {
           "key": "vip_override",
           "label": "VIP-Überschreibung",
-          "description": "VIP und unterdrückte Warnungen werden separat an der Kundenlizenz verwaltet."
+          "description": "VIP und Warnungsunterdrückung werden separat an der Kundenlizenz verwaltet."
         },
         {
           "key": "backup",
           "label": "Datensicherung",
-          "description": "Sicherung und Wiederherstellung der Installation."
+          "description": "Verschlüsselte Sicherungen, Backup-Ziele und Zeitpläne; die Wiederherstellung bleibt immer möglich."
         },
         {
           "key": "plan_archive",
           "label": "Dienstplanarchiv",
-          "description": "Archivierung von Dienstplänen."
+          "description": "Erstellen und automatisches Archivieren von Dienstplänen; vorhandene Archive bleiben lesbar."
         },
         {
           "key": "audit_log",
           "label": "Audit-Protokoll",
-          "description": "Protokollierung administrativer Vorgänge."
+          "description": "Einsicht in das Audit-Protokoll; die Aufzeichnung läuft immer."
         },
         {
           "key": "priority_support",
@@ -346,23 +346,23 @@
       "features": [
         {
           "key": "core_scheduling",
-          "label": "Kern-Dienstplanung",
-          "description": "Erfüllt die MEDora-Kernanforderung für Dienstplanung und Einrichtung."
+          "label": "Basis-Dienstplanung",
+          "description": "Basis-Solver für Dienstplanung und Einrichtung; ist für MEDora erforderlich."
         },
         {
           "key": "all",
           "label": "Alle Funktionen",
-          "description": "Erfüllt die MEDora-Kernanforderung; zusätzliche Module werden derzeit nicht einzeln geprüft."
+          "description": "Erfüllt die MEDora-Kernanforderung und schaltet alle Module frei."
         },
         {
           "key": "advanced_solver",
-          "label": "Optimierer / Smart-Selection",
-          "description": "Automatische Besetzungsvorschläge."
+          "label": "Erweiterte Dienstplanung",
+          "description": "Aktiviert Mitarbeiterpräferenzen und verbindliche Mentorenregeln zusätzlich zur Basis-Dienstplanung."
         },
         {
           "key": "kiosk_mode",
           "label": "Kiosk-Konten",
-          "description": "Schreibgeschützte Anzeige-Konten für Monitore."
+          "description": "Anlegen schreibgeschützter Anzeige-Konten; vorhandene Kiosk-Konten bleiben nutzbar."
         },
         {
           "key": "web_push",
@@ -372,22 +372,22 @@
         {
           "key": "vip_override",
           "label": "VIP-Überschreibung",
-          "description": "VIP und unterdrückte Warnungen werden separat an der Kundenlizenz verwaltet."
+          "description": "VIP und Warnungsunterdrückung werden separat an der Kundenlizenz verwaltet."
         },
         {
           "key": "backup",
           "label": "Datensicherung",
-          "description": "Sicherung und Wiederherstellung der Installation."
+          "description": "Verschlüsselte Sicherungen, Backup-Ziele und Zeitpläne; die Wiederherstellung bleibt immer möglich."
         },
         {
           "key": "plan_archive",
           "label": "Dienstplanarchiv",
-          "description": "Archivierung von Dienstplänen."
+          "description": "Erstellen und automatisches Archivieren von Dienstplänen; vorhandene Archive bleiben lesbar."
         },
         {
           "key": "audit_log",
           "label": "Audit-Protokoll",
-          "description": "Protokollierung administrativer Vorgänge."
+          "description": "Einsicht in das Audit-Protokoll; die Aufzeichnung läuft immer."
         }
       ],
       "price_amount_cents": 1500000,
