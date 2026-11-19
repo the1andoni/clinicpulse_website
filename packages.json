@@ -60,6 +60,11 @@
           "key": "audit_log",
           "label": "Audit-Protokoll",
           "description": "Einsicht in das Audit-Protokoll; die Aufzeichnung läuft immer."
+        },
+        {
+          "key": "integration",
+          "label": "Externe Integrationen",
+          "description": "Verbindungen zu externen HR- und Verzeichnisdiensten wie Personio und Active Directory."
         }
       ],
       "price_amount_cents": 1078800,
